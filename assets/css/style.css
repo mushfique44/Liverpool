@@ -5,8 +5,10 @@ ul {
 }
 
 a {
-    border: 2px solid black;
+    border: 2px solid rgb(243, 2, 2);
     border-radius: 50%;
+    background-color: red;
+    color: white;
     width: 5rem;
     padding: 5px 10px;
     text-align: center;
@@ -45,4 +47,17 @@ h1 {
 
 figure {
     margin-top: 40px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main p {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    /*rounded corners for a nicer look */
 }
